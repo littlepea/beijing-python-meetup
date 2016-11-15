@@ -38,6 +38,21 @@ A good way to describe this is presented in [The Clean Architecture in Python](h
 
 ### Best Python WEB framework for Microservice architecture
 
+[Microservice architecture](https://www.fullstackpython.com/microservices.html) is becoming a bigger trend every year 
+and there's a [big discussion on what frameworks to use for it in Python[(https://news.ycombinator.com/item?id=8421493).
+
+The most common opinion is that "batteries included" frameworks like Django are more suitable for monolithic applications 
+while [microservices require something light-weight like Flask/nameko/web.py/etc](https://github.com/mfornos/awesome-microservices#python).
+
+It does make sense from the performance perspective, at the same time, it's possible to make an argument for the opposite: 
+that Django is actually more suitable for rapidly developing small services rather than large monolithic applications 
+because it's actually hard to scale to a very large codebase. 
+And the performance difference in a distributed architecture (where I/O is the biggest bottleneck) is actually not that significant, 
+but the developers productivity when using Django can be the key when building up new services quickly.
+
+At the same time, a non-intrusive framework like Flask allows to easier scale a large codebase 
+and keep the framework away from the business logic as long as the application is build using a [Clean Architecture](http://rhodesmill.org/brandon/slides/2013-10-pyconie/). 
+
 ### ORM vs. Raw SQL
 
 ### Lightweight way of dealing with structured data
