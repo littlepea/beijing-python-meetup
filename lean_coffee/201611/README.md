@@ -116,7 +116,18 @@ BDD scenarios use [The Gherkin language](http://pythonhosted.org/behave/philosop
 
 In Python BDD can be used via tools like [behave](http://pythonhosted.org/behave/), [pytest-bdd](https://pypi.python.org/pypi/pytest-bdd), [Robot Framework](http://robotframework.org/) and others.
 
-### "Design Patterns" relevancy in Python
+### Design Patterns relevancy in Python
+
+Python programmers rarely talk about design patterns, most common arguments are that patterns are built-in language features or provided by the frameworks, 
+plus, we avoid building large application.
+ 
+In statically typed languages like Java patterns are extremely important in order for the code to be maintainable and to keep flexibility, 
+but in Python it's not necessary.
+
+But even though the patterns are "built-in" into the language it's still important to know the pattern and choose which one to apply in what context.
+Using the design patterns allows us to better structure our code and make it easier to maintain.
+
+More on this in [Python Patterns 1](http://rhodesmill.org/brandon/slides/2012-07-pyohio/) talk by Brandon Rhodes.
 
 ### Open-source Business Software (ERP) writtenin Python in China
 
