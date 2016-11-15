@@ -129,7 +129,21 @@ Using the design patterns allows us to better structure our code and make it eas
 
 More on this in [Python Patterns 1](http://rhodesmill.org/brandon/slides/2012-07-pyohio/) talk by Brandon Rhodes.
 
-### Open-source Business Software (ERP) writtenin Python in China
+### Open-source Business Software (ERP) written in Python in China
+
+When it come to ERP-like software there're 3 options:
+
+* Build in-house (from scratch)
+* Purchase a commercial product
+* Open source (customized for business needs)
+
+It seems like the OSS option is not very popular and Chinese companies are more likely to go with a commercial product 
+or build one from scratch in case the company is getting pretty big.
+
+But overall it sounds like OSS is a good idea for most use cases, it's feature-full enough to save a lot of development effort 
+and flexible enough to customize for specific business needs without having to adapt the whole business process to the framework.
+
+A popular OSS ERP project is [Odoo](https://www.odoo.com/).
 
 ### Machine Learning Frameworks
 
