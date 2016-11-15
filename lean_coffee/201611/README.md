@@ -71,6 +71,22 @@ it's still possible to [fall back to Raw SQL through the ORM](https://docs.djang
 
 ### Lightweight way of dealing with structured data
 
+Sometimes when an application is dealing with structured data (ex: read from CSV file) 
+but it's not core domain entities and rather local data manipulation / business logic (within the same module for example) 
+it can be hard to choose the right data structure to use in this case, because:
+
+1. Creating classes seems to be an overkill
+2. Dictionaries feel unreliable (too dynamic) and not as clean to deal with in the code
+
+Dictionaries are perfect to map things of one type (keys) to other things on one type (values), this is what they are for. 
+And not to use as data objects. Also, dict/JSON can have performance issues in data-heavy workloads.
+
+Classes are good for important domain entities, 
+but for local computation or simple data transfer objects [namedtuple](https://docs.python.org/2/library/collections.html#collections.namedtuple) can be a perfect solution.
+It makes code [more readable](https://pythontips.com/2015/06/06/why-should-you-use-namedtuple-instead-of-a-tuple/) and has a high-performance of a tuple.
+
+Of course, it's important to know that, like tuples, namedtuples are immutable, so if you need to change their state it's better to use classes.
+
 ### Early detection of errors (type hinting, etc...)
 
 ### BDD in Python
