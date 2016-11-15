@@ -15,6 +15,10 @@
 * [John](https://www.meetup.com/Beijing-Python/members/123183642/)
 * [Chris](https://www.meetup.com/Beijing-Python/members/109796062/)
 
+### Contributors:
+
+* [Martin](http://www.meetup.com/members/189020376/)
+
 ## Presentations
 
 * [Refactoring Python Code](https://github.com/littlepea/python-refactoring-talk) - [Oct 17, 2016](https://www.meetup.com/Beijing-Python/events/234021155/)
