@@ -4,17 +4,37 @@
 * Location: [Maan Coffee (Gongti)](https://maps.google.com/maps?f=q&hl=en&q=Corner+of+Worker%27s+Stadium+North%2FWest+Roads%2C+Beijing%2C+cn)
 * Organizer: [Evgeny Demchenko](https://github.com/littlepea/)
 
+It was the first time we've tried to use a [Lean Coffee](http://leancoffee.org/) format for our Python meetup and it worked pretty well.
+We've used 8 minutes base time box and at the end of it decide to extend for 4 more minutes or move on to the next subject via a "Roman vote".
+We've manage to cover 10 topics in about 1.5 hours which is pretty efficient. 
+
 ## Background
 
 > "Lean Coffee is a structured, but agenda-less meeting. Participants gather, build an agenda, and begin talking. Conversations are directed and productive because the agenda for the meeting was democratically generated."
 
-People will write a topic (or multiple topics) on an index card (example: "What's the best way to filter lists in python?"), then we'll dot-vote for all topics, prioritize and have a timeboxed discussion on each topic in order of priority. We'll do this for 1 hour and try to get through as many topics as we can and then will switch to a regular informal chat like we usually do. :)
+Each person can write a topic (or multiple topics) on an index card (example: "What's the best way to filter lists in python?"), then we "dot-vote" on all topics (5 votes limit per person), 
+prioritize and have a time-boxed discussion on each topic in order of priority. 
 
-If you want you can pre-submit the topics and/or vote on our [Meetup Trello board](https://trello.com/b/415wH9ll/beijing-monthly-python-meetup).
+We do this for 1.5 hours and try to get through as many topics as we can and then  sitch to a regular informal chat like we usually do. :)
+
+Some topics were pre-submitted on our [Meetup Trello board](https://trello.com/b/415wH9ll/beijing-monthly-python-meetup).
 
 ## Topics Discussed
 
 ### Functional Programming in Python
+
+While it's [possible to do functional programming](https://docs.python.org/2/howto/functional.html) in Python, the [language was not created with functional use cases in mind](http://stackoverflow.com/a/1017937/2045725).
+
+If you really want to write the whole application in a strictly functional way, it's possible to do in Python, but it would be a better idea to actually use a real functional language.
+
+At the same time, [classes are often over-used](https://www.youtube.com/watch?v=o9pEzgHorH0) 
+and functional programming provides a lot of advantages by [removing the problems of state and increasing simplicity](https://www.youtube.com/watch?v=7Zlp9rKHGD4).
+
+It's a good idea to try to combine both OO and functional approaches in our applications, 
+and try to use functions as much as possible for the logic of the application 
+while still using classes for use cases where classes are perfectly suitable (like Domain modelling). 
+
+A good way to describe this is presented in [The Clean Architecture in Python](http://rhodesmill.org/brandon/slides/2013-10-pyconie/) talk by Brandon Rhodes.
 
 ### Best Python WEB framework for Microservice architecture
 
@@ -30,4 +50,8 @@ If you want you can pre-submit the topics and/or vote on our [Meetup Trello boar
 
 ### Open-source Business Software (ERP) writtenin Python in China
 
-### Machine LEarning Frameworks
+### Machine Learning Frameworks
+
+### Thoughts on front-end / back-end separation and frameworks
+
+
