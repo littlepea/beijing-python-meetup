@@ -55,6 +55,20 @@ and keep the framework away from the business logic as long as the application i
 
 ### ORM vs. Raw SQL
 
+There are [pros and cons](https://www.quora.com/What-are-the-pros-and-cons-of-using-raw-SQL-versus-ORM-for-database-development) of using [ORM or Raw SQL](http://stackoverflow.com/questions/494816/using-an-orm-or-plain-sql) in Pyhon applications.
+ 
+Some OO advocates (including Uncle Bob) think that [ORM is a bad practice](http://www.yegor256.com/2014/12/01/orm-offensive-anti-pattern.html), others suggest that [ORM is very practical](http://karwin.blogspot.jp/2009/01/why-should-you-use-orm.html).
+
+It might be a good idea to use ORM most of the time because it solves a few important issues:
+
+* Abstracting the database from the code
+* Providing a convenient Data Persistence layer in the code
+* Allowing to write DB queries in a readable "pythonic" way
+* Simplifying data modelling and validation
+
+But in cases where queries get really complex (or slow) 
+it's still possible to [fall back to Raw SQL through the ORM](https://docs.djangoproject.com/en/1.10/topics/db/sql/) when it's better to express a certain query in SQL.
+
 ### Lightweight way of dealing with structured data
 
 ### Early detection of errors (type hinting, etc...)
