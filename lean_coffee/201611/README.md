@@ -89,6 +89,23 @@ Of course, it's important to know that, like tuples, namedtuples are immutable, 
 
 ### Early detection of errors (type hinting, etc...)
 
+Coming from strongly-types languages to Python it can be scary or at least counter-intuitive to not have type checking during compile time 
+which can catch a lot of very silly errors that should not get out into a production application.
+
+The solution for this is implemented in Python 3.5 via [Type Hints](https://www.python.org/dev/peps/pep-0484/).
+
+It provides a standard syntax for type annotations, opening up Python code to easier static analysis and refactoring, potential runtime type checking, and (perhaps, in some contexts) code generation utilizing type information.
+
+Of these goals, static analysis is the most important. This includes support for off-line type checkers such as [mypy](http://mypy-lang.org/), as well as providing a standard notation that can be used by IDEs for code completion and refactoring.
+
+While this is not as powerful as static typing these optional type annotations give us a perfect balance between static and dynamic languages 
+and allow us to enjoy advantages of both in Python and helps to scale large codebases in a dynamically typed language.
+
+In JavaScript world similar benefits are achieved by [TypeScript](https://www.typescriptlang.org/) language.
+
+It's also important to remember that the real answer for making sure errors don't get out to production code and applications work as expected are Unit Tests, 
+type checking is just gravy. ;)
+
 ### BDD in Python
 
 ### "Design Patterns" relevancy in Python
