@@ -147,6 +147,10 @@ A popular OSS ERP project is [Odoo](https://www.odoo.com/).
 
 ### Machine Learning Frameworks
 
+Machine learning is becoming a huge trend and Python ecosystem is very well suited for ML problems as it has great tooling 
+(like [scikit-learn](http://scikit-learn.org/)) and the dynamic nature and simplicity of the language 
+allow to rapidly prototype ML solutions and get quick results with the minimum amount of code.
+
 ### Thoughts on front-end / back-end separation and frameworks
 
 
