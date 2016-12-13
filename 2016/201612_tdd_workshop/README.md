@@ -8,6 +8,12 @@ We'll have one driver who will type the code in and everybody else will navigate
 
 Eventually, we'll try different formats, such as "ping pong" where we change a driver after each new test.
 
+## References
+
+* [Pull Request with tests and implementation](https://github.com/littlepea/beijing-python-meetup/pull/1/files)
+* [Test-driven development](http://agiledata.org/essays/tdd.html)
+* [Mob programming](https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Zuill_.pdf)
+
 ## Code Katas:
 
 * [FizzBuzz](fizzbuzz.py)
