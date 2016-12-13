@@ -17,12 +17,23 @@ import unittest
 
 
 def factorial(n):
-    pass
+    if n == 1:
+        return 1
+    return n * factorial(n-1)
 
 
 class FactorialTest(unittest.TestCase):
-    def test_zero(self):
-        self.assertEquals(0, factorial(0))
+    def test_one(self):
+        self.assertEquals(1, factorial(1))
+
+    def test_two(self):
+        self.assertEquals(2, factorial(2))
+
+    def test_three(self):
+        self.assertEquals(6, factorial(3))
+
+    def test_six(self):
+        self.assertEquals(720, factorial(6))
 
 
 if __name__ == '__main__':

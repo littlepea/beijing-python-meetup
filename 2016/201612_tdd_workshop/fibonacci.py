@@ -14,12 +14,29 @@ import unittest
 
 
 def fibonacci(n):
-    pass
+    if n < 2:
+        return n
+    return fibonacci(n-2) + fibonacci(n-1)
 
 
 class FibonacciTest(unittest.TestCase):
     def test_zero(self):
         self.assertEquals(0, fibonacci(0))
+
+    def test_one(self):
+        self.assertEquals(1, fibonacci(1))
+
+    def test_two(self):
+        self.assertEquals(1, fibonacci(2))
+
+    def test_three(self):
+        self.assertEquals(2, fibonacci(3))
+
+    def test_four(self):
+        self.assertEquals(3, fibonacci(4))
+
+    def test_20(self):
+        self.assertEquals(6765, fibonacci(20))
 
 
 if __name__ == '__main__':

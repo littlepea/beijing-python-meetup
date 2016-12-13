@@ -9,12 +9,36 @@ import unittest
 
 
 def is_leap(year):
-    pass
+    if year % 400 == 0:
+        return True
+    if year % 100 == 0:
+        return False
+    if year % 4 == 0:
+        return True
+    return False
 
 
 class LeapYearTest(unittest.TestCase):
     def test_2000(self):
         self.assertTrue(is_leap(2000))
+
+    def test_100(self):
+        self.assertFalse(is_leap(100))
+
+    def test_2004(self):
+        self.assertTrue(is_leap(2004))
+
+    def test_not_leap(self):
+        self.assertFalse(is_leap(2001))
+
+    def test_1700(self):
+        self.assertFalse(is_leap(1700))
+
+    def test_2002(self):
+        self.assertFalse(is_leap(2002))
+
+    def test_zero(self):
+        self.assertTrue(is_leap(0))
 
 
 if __name__ == '__main__':
