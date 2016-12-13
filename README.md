@@ -27,3 +27,6 @@
 
 * [Nov 14, 2016](lean_coffee/201611/)
 
+## Coding Workshops
+
+* [TDD mob programming workshop - Dec 12, 2016](2016/201612_tdd_workshop)
