@@ -10,12 +10,12 @@ Eventually, we'll try different formats, such as "ping pong" where we change a d
 
 ## Code Katas:
 
-* FizzBuzz
-* Fibonacci
-* Factorial
-* Leap Year
+* [FizzBuzz](fizzbuzz.py)
+* [Fibonacci](fibonacci.py)
+* [Factorial](factorial.py)
+* [Leap Year](leap_year.py)
 
-### More to consider:
+### Longer/harder katas to consider:
 
 * [Roman Numerals](http://www.codingdojo.org/cgi-bin/index.pl?KataRomanNumerals)
 * [Numbers in Words](http://www.codingdojo.org/cgi-bin/index.pl?KataNumbersInWords)
