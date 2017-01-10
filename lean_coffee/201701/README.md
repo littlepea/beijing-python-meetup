@@ -17,40 +17,50 @@ prioritize and have a time-boxed discussion on each topic in order of priority.
 
 We do this for 1.5 hours and try to get through as many topics as we can and then  sitch to a regular informal chat like we usually do. :)
 
-Some topics were pre-submitted on our [Meetup Trello board](https://trello.com/b/415wH9ll/beijing-monthly-python-meetup).
-
 ## Topics Discussed
 
 ### Grumpy – good or bad?
-Hint: [Grumpy](https://github.com/google/grumpy) Google’s latest language to bridge Python with Go, technically speaking a source code transcompiler and runtime.
+
+Hint: [Grumpy](https://github.com/google/grumpy) Google’s latest language to bridge Python with Go, technically speaking a source code transpiler and runtime.
+
 - So far only for 2.7, no ambition yet for 3.6 (since Google mostly uses 2.7)
 - Could be interpreted as a move to transition away from Python
 - Might not need much effort to also port for Python 3
 
 ### What is the fastest path to productivity for a novice to become a Python/Django-developer?
+
 - Individual development plan based on current skills and interest in problems to solve
 - Self-study of tutorials  
 - Pairing with an experienced developer
 - Have them focus on part of the stack at first (e.g., HTML/CSS or database)
 
 ### Best practice to configure Python 2 and Python 3 on one system?
-Just go with standard setup on Linux, Mac or Win and then use either containerization (e.g. Docker or [LXD](https://github.com/lxc/lxd)) or, on a higher level, using [pyenv](https://github.com/yyuu/pyenv) which can automate the handling of virtualenv.
+
+Just go with standard setup on Linux, Mac or Win and then use either containerization (e.g. Docker or [LXD](https://github.com/lxc/lxd)) 
+or, on a higher level, using [pyenv](https://github.com/yyuu/pyenv) which can automate the handling of virtualenv.
 
 ### Relative Import vs Explicit Import?
-Relative imports are not good for refactoring and not suggested by the Python documentation. It’s advised to use relative imports.
+
+Relative imports are not good for refactoring and not suggested by the Python documentation. It’s advised to use explicit imports.
 
 ### Neural Network software in Python?
+
 Python is strong in that field with several libraries available. Many are historically grown with focus on function. Yet there is a new strong player called [TensorFlow](https://github.com/tensorflow/tensorflow). Some group members had tested it and found it outperforming the existing players in performance and architectural scalability.
 
 ### Recommended e-commerce payment solutions in Python?  
+
 An established cart is [Django Oscar](https://github.com/django-oscar). This option and also other carts that are on other frameworks than Django can easily get propped up for payments in China (Tenpay/WeChat Pay, AliPay) via gateway [Ping++](https://github.com/PingPlusPlus/pingpp-python), a Shanghai-based startup. 
 
 ### Python 3.6 – what’s new?
+
+- See [release notes](https://docs.python.org/3/whatsnew/3.6.html)
 - Most notably [asincio](https://docs.python.org/3/library/asyncio.html#module-asyncio), the herewith standardized new module as a synthesis of asynchronous I/O, event loop, coroutines and tasks. asincio provides infrastructure for writing single-threaded concurrent code using coroutines, multiplexing I/O access over sockets and other resources, running network clients and servers, and other related primitives. 
 - An early adopter of asincio and other improvements since 3.5 is for example the new Flask-like web server [Sanic](https://github.com/channelcat/sanic), which goes faster than Wheezy and much faster then Flask or Tornado.
-- Formatted print strings (something like f”%(hello)”)
+- Formatted string literals (something like `f"He said his name is {name}."`)
+- Optional type annotations
 
 ### Python trends?
+
 - In general Python is staying strong where a language is needed that is easy to get in. That’s for example why Python is well established in science field or DevOps.
 - [Ansible](https://github.com/ansible/ansible) and [Salt](https://github.com/saltstack/salt) automation / configuration management increasingly popular (over Ruby-based Chef and Puppet).
 - Rather losing at CMS and e-commerce web applications (e.g. to Node.js backend & React frontend)

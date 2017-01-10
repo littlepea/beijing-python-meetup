@@ -26,6 +26,7 @@
 ## Lean Coffee Sessions
 
 * [Nov 14, 2016](lean_coffee/201611/)
+* [Jan 9, 2017](lean_coffee/201701/)
 
 ## Coding Workshops
 
