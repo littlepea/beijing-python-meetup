@@ -64,3 +64,32 @@ An established cart is [Django Oscar](https://github.com/django-oscar). This opt
 - In general Python is staying strong where a language is needed that is easy to get in. That’s for example why Python is well established in science field or DevOps.
 - [Ansible](https://github.com/ansible/ansible) and [Salt](https://github.com/saltstack/salt) automation / configuration management increasingly popular (over Ruby-based Chef and Puppet).
 - Rather losing at CMS and e-commerce web applications (e.g. to Node.js backend & React frontend)
+
+### What is Pandas DataFrame and how to use it?
+
+- It's the [primary Pandas data structure](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)
+- Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. 
+
+### What is the best approach for large scale integration tests?
+
+- Integration tests are hard!
+- It's better to have as little of them as possible
+- For distributed systems it can be a good idea to focus on isolation and "contract tests"
+
+### What is the most efficient way to store stock data and associated statistics?
+
+- For a reasonably sized dataset PostgreSQL would be enough
+- Can additionally snapshot time-series data into something like IndexDB
+
+### What is the market for data analysts?
+
+- Right now data science skills are in high demand
+- Most companies (even mid-size) needs those people (or even teams)
+- Secondary data can be used for analysis and data-driven business decisions as well as machine learning algorithms
+- Roles can be "data scientist" or "data engineer"
+
+### State of Python 3 transition
+
+- Python 3 is production-ready
+- For green field projects there's no reason to use python 2
+- Open Source coverage is great already
