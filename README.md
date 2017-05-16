@@ -21,7 +21,8 @@
 
 ## Presentations
 
-* [Refactoring Python Code](https://github.com/littlepea/python-refactoring-talk) - [Oct 17, 2016](https://www.meetup.com/Beijing-Python/events/234021155/)
+* [Refactoring Python Code](https://github.com/littlepea/python-refactoring-talk) - [Oct 17, 2016](https://www.meetup.com/Beijing-Python/events/234021155/) by Evgeny Demchenko
+* [The Secret Life of Python Attributes](https://github.com/littlepea/beijing-python-meetup/tree/master/2017/201705_attributes_talk) by Reuven Lerner
 
 ## Lean Coffee Sessions
 
