@@ -2,7 +2,7 @@
 
 ## How the most boring thing in Python is one of the most interesting
 
-For out monthly meetup on May 15th we had a special guest stopping by: [Reuven Lerner](http://lerner.co.il/).
+For [our monthly meetup on May 15th](https://www.meetup.com/Beijing-Python/events/239246991/), we had a special guest stopping by: [Reuven Lerner](http://lerner.co.il/).
 
 He presented a talk about attributes in Python. The [notebook is available](https://github.com/littlepea/beijing-python-meetup/blob/master/2017/201705_attributes_talk/Beijing%20Python.ipynb).
 
