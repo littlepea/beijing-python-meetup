@@ -32,3 +32,7 @@
 ## Coding Workshops
 
 * [TDD mob programming workshop - Dec 12, 2016](2016/201612_tdd_workshop)
+
+## Other information and links:
+
+* [Sponsorships and Expences tracking](https://docs.google.com/spreadsheets/d/1ELWDQPWvroswoA0lgAYXYg4G35goT0GEuBKqkMQAFa0/edit#gid=0) (Google Sheet)
