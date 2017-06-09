@@ -1,5 +1,7 @@
 # Beijing Python Meetup
 
+<img src="assets/logo.png" width="100">
+
 * [Meetup Group](https://www.meetup.com/Beijing-Python/)
 * [Github Repository](https://github.com/littlepea/beijing-python-meetup)
 
