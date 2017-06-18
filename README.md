@@ -25,6 +25,7 @@
 
 * [Refactoring Python Code](https://github.com/littlepea/python-refactoring-talk) - [Oct 17, 2016](https://www.meetup.com/Beijing-Python/events/234021155/) by Evgeny Demchenko
 * [The Secret Life of Python Attributes](https://github.com/littlepea/beijing-python-meetup/tree/master/2017/201705_attributes_talk) - [May 15, 2017](https://www.meetup.com/Beijing-Python/events/239246991/) by Reuven Lerner
+* [Separating Administrative and Business Logic in Python](https://github.com/littlepea/python-admin-business-logic-talk) - [June 12, 2017](https://www.meetup.com/Beijing-Python/events/240004975/) by Evgeny Demchenko
 
 ## Lean Coffee Sessions
 
