@@ -35,7 +35,7 @@
 ## Coding Workshops
 
 * [TDD mob programming workshop - Dec 12, 2016](2016/201612_tdd_workshop)
-* [TDD pair programming workshop - Aug 14, 2017](2017/20180814_tdd_workshop)
+* [TDD pair programming workshop - Aug 14, 2017](2017/20170814_tdd_workshop)
 
 ## Other information and links:
 
