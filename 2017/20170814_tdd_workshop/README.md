@@ -10,6 +10,12 @@ and one navigator who will navigate him or her during the implementation.
 Eventually, we'll try different formats, 
 such as "ping pong" where we swap the driver and navigator after each new test.
 
+## Code Katas
+
+* [Tennis Game](tennis.py) + [solution](solutions/tennis.py)
+* [Library Late Fees](library.py) + [solution](solutions/library.py)
+* [FizzBuzzWhiz](fizzbuzzwhiz.py) + [solution](solutions/fizzbuzzwhiz.py)
+
 ## References
 
 * [Test-driven development](http://agiledata.org/essays/tdd.html)
