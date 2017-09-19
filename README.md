@@ -3,6 +3,7 @@
 <img src="assets/logo.png" width="100">
 
 * [Meetup Group](https://www.meetup.com/Beijing-Python/)
+* [Meetup History](assets/HISTORY.md)
 * [Github Repository](https://github.com/littlepea/beijing-python-meetup)
 
 ## Organizers
