@@ -3,10 +3,11 @@
 ## Accepted
 
 * [Refactoring Python Code](accepted/refactoring.md)
+* [Separating Administrative and Business Logic in Python](proposals/admin-business-logic.md)
 
 ## Proposals
 
-* [Separating Administrative and Business Logic in Python](proposals/admin-business-logic.md)
+* [Working with RESTFul APIs in Python](proposals/restful-apis.md)
 
 ## Q&A
 
