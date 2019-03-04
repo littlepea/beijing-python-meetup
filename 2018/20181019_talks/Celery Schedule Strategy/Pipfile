@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "==4.2.1"
+ipykernel = "*"
+flower = "*"
+redis = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
