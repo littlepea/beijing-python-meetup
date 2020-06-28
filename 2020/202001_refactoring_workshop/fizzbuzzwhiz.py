@@ -20,12 +20,9 @@ from math import isqrt
 def is_prime(n):
     if n == 1:
         return False
-    if n == 2 or n == 3:
+    if n in [2, 3]:
         return True
-    for i in range(2, isqrt(n) + 1):
-        if n % i == 0:
-            return False
-    return True
+    return all(n % i != 0 for i in range(2, isqrt(n) + 1))
 
 
 def fizzbuzzwhiz(n):

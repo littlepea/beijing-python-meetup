@@ -46,16 +46,16 @@ from tennis import TennisGame
 ])
 def test_get_score(p1_points, p2_points, score, p1_name='player1', p2_name='player2'):
     game = TennisGame(p1_name, p2_name)
-    for i in range(p1_points):
+    for _ in range(p1_points):
         game.won_point(p1_name)
-    for i in range(p2_points):
+    for _ in range(p2_points):
         game.won_point(p2_name)
     assert score == game.score()
 
 
 def test_player_names():
     game = TennisGame('One', 'Two')
-    for i in range(4):
+    for _ in range(4):
         game.won_point('One')
     assert "Win for One" == game.score()
 

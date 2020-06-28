@@ -18,11 +18,7 @@ def is_prime(num):
 
     end = int(math.sqrt(num)) if num > 10 else num
 
-    for i in range(2, end):
-        if num % i == 0:
-            return False
-
-    return True
+    return all(num % i != 0 for i in range(2, end))
 
 
 class PrimeNumbersTest(unittest.TestCase):
