@@ -5,7 +5,7 @@ app = Celery('tasks', broker='pyamqp://guest@localhost//', backend='redis://loca
 
 @app.task
 def show(symbol, time_count):
-    for m in range(time_count):
+    for _ in range(time_count):
         print(symbol * time_count)
         sleep(1)
     return symbol

@@ -8,7 +8,7 @@ import unittest
 
 def first_unique_character(s):
     before = ''
-    for i in range(0, len(s)):
+    for i in range(len(s)):
         char = s[i]
         after = s[i+1:]
         if char not in before + after:

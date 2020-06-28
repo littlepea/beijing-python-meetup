@@ -13,9 +13,7 @@ def is_leap(year):
         return True
     if year % 100 == 0:
         return False
-    if year % 4 == 0:
-        return True
-    return False
+    return year % 4 == 0
 
 
 class LeapYearTest(unittest.TestCase):

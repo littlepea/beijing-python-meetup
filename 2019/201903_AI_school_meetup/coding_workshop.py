@@ -17,8 +17,7 @@ def median(numbers):
     length = len(numbers)
     half = length // 2 - int(length % 2 == 0)
     middle = sorted(numbers)[half:-half]
-    median = sum(middle) / len(middle)
-    return median
+    return sum(middle) / len(middle)
 
 
 print(median(five_numbers))
